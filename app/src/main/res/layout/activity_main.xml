@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:weightSum="4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lock_code_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:text="Select Lock Code :" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/locked_code_background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:scaleType="fitCenter">
+
+            <NumberPicker
+                android:id="@+id/code_set_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></NumberPicker>
+
+            <NumberPicker
+                android:id="@+id/code_set_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></NumberPicker>
+
+            <NumberPicker
+                android:id="@+id/code_set_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></NumberPicker>
+
+            <NumberPicker
+                android:id="@+id/code_set_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></NumberPicker>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+           <Switch
+            android:id="@+id/lock_screen_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activate Kiddy Lock : " />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions : \n\n 1. To activate the Kiddy Lock the Lock Code must be set to anything other then 0000. \n\n 2. Turn the Kiddy Lock on by toggling the 'Activate Kiddy Lock' switch. \n\n 3. Navigate to the screen screen you wish to leave on then double tap the Kiddy Lock to turn screen into locked mode. \n\n 4. Tap the Kiddy Lock to display the lock dial enter Kiddy Lock Code to turn off locked mode. \n\n 5. To deactivate the Kiddy Lock toggle the 'Activate Kiddy Lock' switch off or close the KiddyLock app. \n " />
+
+    </LinearLayout>
+</LinearLayout>

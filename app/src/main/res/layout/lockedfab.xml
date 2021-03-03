@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:keepScreenOn="true">
+    <LinearLayout
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/lockedBtn"
+            android:layout_width="69dp"
+            android:layout_height="64dp"
+            android:layout_weight="0.03"
+            android:src="@mipmap/locked_fab" />
+
+        <LinearLayout
+            android:id="@+id/code_check"
+            android:layout_width="wrap_content"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:background="@drawable/locked_code_background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+                <NumberPicker
+                    android:id="@+id/code_check_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></NumberPicker>
+
+                <NumberPicker
+                    android:id="@+id/code_check_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></NumberPicker>
+
+                <NumberPicker
+                    android:id="@+id/code_check_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></NumberPicker>
+
+                <NumberPicker
+                    android:id="@+id/code_check_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></NumberPicker>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
