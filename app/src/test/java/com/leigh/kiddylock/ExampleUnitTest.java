@@ -1,4 +1,4 @@
-package com.example.kiddylock;
+package com.leigh.kiddylock;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kiddylock">
+    package="com.leigh.kiddylock">
     <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION"/>
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
@@ -14,15 +14,15 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.KiddyLock">
-        <activity android:name=".MainActivity" >
+        <activity android:name="com.leigh.kiddylock.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".UnlockedFabService" />
-        <service android:name=".LockedFabService" />
+        <service android:name="com.leigh.kiddylock.UnlockedFabService" />
+        <service android:name="com.leigh.kiddylock.LockedFabService" />
     </application>
 
 </manifest>

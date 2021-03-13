@@ -1,12 +1,10 @@
-package com.example.kiddylock;
+package com.leigh.kiddylock;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.PixelFormat;
-import android.text.Layout;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -17,7 +15,6 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.NumberPicker;
-import android.widget.Toast;
 
 import static android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON;
 

@@ -1,4 +1,4 @@
-package com.example.kiddylock;
+package com.leigh.kiddylock;
 
 /**
  * Created by lbennett on 8/04/17.

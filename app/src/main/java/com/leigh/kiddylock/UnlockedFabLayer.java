@@ -1,4 +1,4 @@
-package com.example.kiddylock;
+package com.leigh.kiddylock;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class UnlockedFabLayer extends View {
 

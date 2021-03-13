@@ -31,7 +31,7 @@ android:keepScreenOn="true">
                     android:layout_height="wrap_content"></NumberPicker>
 
                 <NumberPicker
-                    android:id="@+id/code_check_two"
+                    android:id="@+id/code_check_four"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></NumberPicker>
 
@@ -41,7 +41,7 @@ android:keepScreenOn="true">
                     android:layout_height="wrap_content"></NumberPicker>
 
                 <NumberPicker
-                    android:id="@+id/code_check_four"
+                    android:id="@+id/code_check_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></NumberPicker>
         </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.kiddylock;
+package com.leigh.kiddylock;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,12 +10,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.ImageButton;
 import android.widget.NumberPicker;
 import android.widget.Switch;
 import android.widget.Toast;
-
-import java.util.prefs.Preferences;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private PermissionChecker mPermissionChecker;

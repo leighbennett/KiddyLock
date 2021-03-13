@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682735697284",
+    "project_id": "kiddylock-f4459",
+    "storage_bucket": "kiddylock-f4459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682735697284:android:745dd36e4b6c6abc5c31d1",
+        "android_client_info": {
+          "package_name": "com.leigh.kiddylock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682735697284-h2cun5qtnk8j1e28e1anv3l403oj2jek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_NVVYqphvlo2Vm4iVPYjVAxWc7j2vUtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682735697284-h2cun5qtnk8j1e28e1anv3l403oj2jek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
